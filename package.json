@@ -1,0 +1,53 @@
+{
+	"name": "thrust",
+	"displayName": "Thrust",
+	"description": "Thrust - Deploying your static website to IPFS & Filecoin instantly",
+	"version": "0.0.1",
+	"publisher": "thrust",
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"icon": "assets/logo.png",
+	"activationEvents": [
+		"onCommand:thrust.deploy",
+		"onCommand:thrust.settings"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "thrust.deploy",
+				"title": "Deploying Your Static Website To IPFS & Filecoin",
+				"category": "Thrust"
+			},
+			{
+				"command": "thrust.settings",
+				"title": "Settings Web3 Storage API Token",
+				"category": "Thrust"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.2.2",
+		"@types/node": "14.x",
+		"@types/vscode": "^1.60.0",
+		"eslint": "^7.27.0",
+		"glob": "^7.1.7",
+		"mocha": "^8.4.0",
+		"typescript": "^4.3.2",
+		"vscode-test": "^1.5.2"
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"web3.storage": "^3.3.2"
+	}
+}
