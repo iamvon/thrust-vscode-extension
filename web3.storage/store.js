@@ -4,7 +4,11 @@ const { makeStorageClient } = require('./web3storage');
 async function getFiles(path) {
     const files = await getFilesFromPath(path);
     files.forEach(file => {
-        file.name = file.name.split('/').slice(2).join('/');
+        if (file.name.charAt(0) === '/') {
+            file.name = file.name.split('/').slice(2).join('/');
+        } else {
+            file.name = file.name.split('/').slice(1).join('/');
+        }
     });
     return files;
 }
