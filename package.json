@@ -2,7 +2,7 @@
 	"name": "thrust",
 	"displayName": "Thrust",
 	"description": "Thrust - Publishing your static website to IPFS & Filecoin instantly",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"publisher": "thrust",
 	"engines": {
 		"vscode": "^1.60.0"
