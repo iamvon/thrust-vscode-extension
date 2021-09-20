@@ -17,7 +17,7 @@ The Thrust extension helps Web Developers quickly and easily publish their stati
 
     **Attention**: *Please keep your **Web3 Storage** API token private and make sure you keep it in a secure place where you can copy whenever needed.*
 
-3. ### Settings your Web3 Storage API token and Publish Directory
+3. ### Settings your Web3 Storage API token and Publish Folder
    You can find the Thrust settings in [VS Code's Command Palette](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_command-palette). 
    
    ![Thrust Command Palette](asset/../assets/commands.png)
@@ -26,7 +26,7 @@ The Thrust extension helps Web Developers quickly and easily publish their stati
 
    ![Thrust Settings Command](asset/../assets/settings.png)
 
-    In the settings, the API token is the **Web3 Storage** API token you created in the **Step 2**, and the Publish Folder is your folder containing the static website code that you need to publish.
+    In the settings, the API Token is the **Web3 Storage** API token you created in the **Step 2**, and the Publish Folder is your folder containing the static website code that you need to publish.
 
 4. ### Publish your static website    
     After completing the settings in the **Step 3**, now you can publish your static website easily by choosing to run ***thrust.publish*** command in the VS Code's Command Palette.
