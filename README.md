@@ -4,9 +4,9 @@
 
 The Thrust extension helps Web Developers quickly and easily publish their static websites to IPFS & Filecoin blockchain network using [Web3 Storage](https://web3.storage) service maintained by [Protocol Labs](https://protocol.ai).
 
-
-
 ## How to use Thrust
+
+You can see a quick demo [here](https://www.youtube.com/watch?v=J5MoIom_tWc).
 
 1. ### Creating a Web3 Storage account
     Go to [https://web3.storage/login](https://web3.storage/login) and create your own **Web3 Storage** account. Now, you will have **1 TB** of free space to host your static websites.
