@@ -1,7 +1,7 @@
 {
 	"name": "thrust",
 	"displayName": "Thrust",
-	"description": "Thrust - Deploying your static website to IPFS & Filecoin instantly",
+	"description": "Thrust - Publishing your static website to IPFS & Filecoin instantly",
 	"version": "0.0.1",
 	"publisher": "thrust",
 	"engines": {
@@ -12,23 +12,27 @@
 	],
 	"icon": "assets/logo.png",
 	"activationEvents": [
-		"onCommand:thrust.deploy",
+		"onCommand:thrust.publish",
 		"onCommand:thrust.settings"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "thrust.deploy",
-				"title": "Deploying Your Static Website To IPFS & Filecoin",
+				"command": "thrust.publish",
+				"title": "Publish Your Static Website To IPFS & Filecoin",
 				"category": "Thrust"
 			},
 			{
 				"command": "thrust.settings",
-				"title": "Settings Web3 Storage API Token",
+				"title": "Settings Your Web3 Storage API Token & Publish Folder",
 				"category": "Thrust"
 			}
 		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/iamvon/thrust-vscode-extension.git"
 	},
 	"scripts": {
 		"lint": "eslint .",
